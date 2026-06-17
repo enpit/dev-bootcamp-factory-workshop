@@ -31,7 +31,7 @@ seeded checks are right there to copy. Add two of your own under "your turn", ai
 factory failure modes:
 
 - the acceptance criteria are not a placeholder like "it works" (there is an idea to uncomment)
-- every path under "Files to change" actually exists - no hallucinated files (loop the paths and
+- write planner evals: every path under "Files to change" actually exists - no hallucinated files (loop the paths and
   test each with `[ -e "$p" ]`, run from the sandbox)
 
 Run it on both beans again. A useful eval PASSES the good bean and FAILS the broken one. If it
